@@ -1,0 +1,169 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background: #232830;
+
+}
+/* header */
+.page-header {
+    height: 250px;
+    padding: 20px;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    color: #FFF;
+}
+
+.page-header nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.page-header nav ul {
+    display: flex;
+    list-style: none;
+}
+
+.page-header nav ul li {
+    margin-right: 20px;
+}
+
+.page-header nav ul li a {
+    text-decoration: none;
+    color: #FFF;
+    font-family: Recursive;
+    font-style: italic;
+}
+
+.group5 {
+    margin: auto;
+    text-align: center;
+    padding: 20px;
+    margin-top: 50px;
+}
+
+.group5 h1 {
+    letter-spacing: 2px;
+}
+
+.group5 h3 {
+    color: #FF7575;
+    font-family: Recursive;
+    font-style: italic;
+    font-size: 30px;
+}
+
+.group5 p {
+
+    font-family: Poppins;
+}
+
+.category-listing {
+    margin: auto;
+
+}
+
+.category-listing nav {
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.category-listing nav ul {
+    display: flex;
+    list-style: none;
+
+}
+
+.category-listing nav ul li {
+    margin-right: 20px;
+    color: #909090;
+    font-family: Recursive;
+    font-style: italic;
+}
+
+
+/* Articles */
+.article-listing {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    max-width: fit-content;
+}
+
+.article-listing .group4 {
+
+    border-radius: 22px;
+    background: #FFF;
+    border: 1px solid #252930;
+    max-width: min-content;
+    text-align: center;
+    padding: 20px;
+    margin: 20px;
+
+}
+
+.article-listing .group4 h3 {
+    text-align: left;
+    padding: 10px;
+}
+
+.article-listing .group4 p {
+    text-align: left;
+    padding: 10px;
+}
+
+.article-listing .group4 .group1 {
+    display: flex;
+}
+
+.article-listing .group4 .group1 h3 {
+    color: #0F1217;
+    font-size: 16px;
+    font-family: Poppins;
+    margin-right: 40px;
+}
+
+.pagination {
+    margin-top: 50px;
+}
+.pagination ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+
+}
+
+.pagination ul li {
+    margin-right: 20px;
+    color: #909090;
+    font-family: Recursive;
+    font-style: italic;
+}
+
+footer {
+    margin-top: 100px;
+    border-top: solid 1px #4D4D4D;
+    padding: 20px;
+    text-align: center;
+
+}
+
+footer p {
+    color: #FFF;
+    font-family: Source Sans Pro;
+    font-weight: 600;
+}
+
+
+
+
+
+
+
